@@ -49,7 +49,7 @@ CRUD sur tous les data model.
 
 > Voir chapitre sur les [roles](##Roles)
 
-```json
+```js
 {
   "id": 1,
   "name": "user",
@@ -73,7 +73,7 @@ CRUD sur tous les data model.
 
 ### Oncall
 
-```json
+```js
 {
   "id": 1,
   "user_id": 1,
@@ -96,7 +96,7 @@ CRUD sur tous les data model.
 >
 > Lorsque que la date d'une astreinte est dépasser un mail de rappel.
 
-```json
+```js
 {
   "id": 1,
   "user_id": 1,
@@ -123,11 +123,11 @@ CRUD sur tous les data model.
 >
 > Option2 = compasation horraire
 
-```json
+```js
 {
   "id": 1,
-  name: "option1",
-  description: "Compensation sous forme de paiement forfait demi-journée"
+  "name": "option1",
+  "description": "Compensation sous forme de paiement forfait demi-journée"
 }
 ```
 
@@ -141,17 +141,17 @@ CRUD sur tous les data model.
 >
 > TE = travail exeptionel
 
-```json
+```js
 {
   "id": 1,
-  name: "AS",
-  description: "Astreinte"
+  "name": "AS",
+  "description": "Astreinte"
 }
 ```
 
 #### Intervention
 
-```json
+```js
 {
   "id": 1,
   "oncall_id": 1,
@@ -174,7 +174,7 @@ CRUD sur tous les data model.
 >
 > Contient le nombre de d'heure majorées et le nombre d'heures travaillées
 
-```json
+```js
 {
   "id": 1,
   "intervention_id": 1,
@@ -201,7 +201,7 @@ CRUD sur tous les data model.
 >
 > nuit jour férier=210 , isPublicHoliDay=true, isDay=false, isSunday=false
 
-```json
+```js
 {
   "id": 1,
   "name": "jour",
@@ -218,7 +218,7 @@ CRUD sur tous les data model.
 
 >  Liste des adresses email pour les notifications
 
-```json
+```js
 {
   "id": 1,
   "email": "jhon.doe@mail.com",
